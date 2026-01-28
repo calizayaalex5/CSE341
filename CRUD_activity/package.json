@@ -1,0 +1,24 @@
+{
+  "name": "crud_activity",
+  "version": "1.0.0",
+  "description": "CRUD acitivyt for CSE341",
+  "keywords": [
+    "CRUD"
+  ],
+  "license": "ISC",
+  "author": "alex calizaya",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "swagger": "node swagger.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
